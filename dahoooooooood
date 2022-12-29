@@ -1,0 +1,312 @@
+
+local DH = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Swagmode = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Crash = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local Swagmode_2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local Autofarm = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local Recomendation = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+
+--Properties:
+
+DH.Name = "DH"
+DH.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+DH.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = DH
+Frame.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 5
+Frame.Position = UDim2.new(0.349537909, 0, 0, 0)
+Frame.Size = UDim2.new(0, 495, 0, 561)
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.101604275, 0)
+ScrollingFrame.Size = UDim2.new(0, 495, 0, 504)
+
+Swagmode.Name = "Swagmode"
+Swagmode.Parent = ScrollingFrame
+Swagmode.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Swagmode.Position = UDim2.new(0.149494946, 0, 0.0400326848, 0)
+Swagmode.Size = UDim2.new(0, 100, 0, 99)
+Swagmode.Font = Enum.Font.Arcade
+Swagmode.Text = "Swag Mode"
+Swagmode.TextColor3 = Color3.fromRGB(255, 255, 255)
+Swagmode.TextSize = 35.000
+Swagmode.TextWrapped = true
+
+UICorner.Parent = Swagmode
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(81, 81, 81)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient.Parent = Swagmode
+
+Crash.Name = "Crash"
+Crash.Parent = ScrollingFrame
+Crash.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Crash.Position = UDim2.new(0.646464646, 0, 0.0400326848, 0)
+Crash.Size = UDim2.new(0, 100, 0, 99)
+Crash.Font = Enum.Font.Arcade
+Crash.Text = "Crash Server"
+Crash.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crash.TextSize = 27.000
+Crash.TextWrapped = true
+
+UICorner_2.Parent = Crash
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(81, 81, 81)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_2.Parent = Crash
+
+Swagmode_2.Name = "Swagmode"
+Swagmode_2.Parent = ScrollingFrame
+Swagmode_2.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Swagmode_2.Position = UDim2.new(0.149494946, 0, 0.206699356, 0)
+Swagmode_2.Size = UDim2.new(0, 100, 0, 99)
+Swagmode_2.Font = Enum.Font.Arcade
+Swagmode_2.Text = "Good Silent Aim "
+Swagmode_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Swagmode_2.TextScaled = true
+Swagmode_2.TextSize = 35.000
+Swagmode_2.TextWrapped = true
+
+UICorner_3.Parent = Swagmode_2
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(81, 81, 81)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_3.Parent = Swagmode_2
+
+Autofarm.Name = "Autofarm"
+Autofarm.Parent = ScrollingFrame
+Autofarm.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Autofarm.Position = UDim2.new(0.660606086, 0, 0.206699356, 0)
+Autofarm.Size = UDim2.new(0, 100, 0, 99)
+Autofarm.Font = Enum.Font.Arcade
+Autofarm.Text = "Auto Cash farm"
+Autofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autofarm.TextScaled = true
+Autofarm.TextSize = 35.000
+Autofarm.TextWrapped = true
+
+UICorner_4.Parent = Autofarm
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(81, 81, 81)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+UIGradient_4.Parent = Autofarm
+
+Recomendation.Name = "Recomendation"
+Recomendation.Parent = ScrollingFrame
+Recomendation.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Recomendation.BackgroundTransparency = 1.000
+Recomendation.Position = UDim2.new(0.577777803, 0, 0.308377892, 0)
+Recomendation.Size = UDim2.new(0, 200, 0, 50)
+Recomendation.Font = Enum.Font.Arcade
+Recomendation.Text = "Works best in private servers"
+Recomendation.TextColor3 = Color3.fromRGB(30, 30, 30)
+Recomendation.TextScaled = true
+Recomendation.TextSize = 14.000
+Recomendation.TextWrapped = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 495, 0, 50)
+TextLabel.Font = Enum.Font.Arcade
+TextLabel.Text = "Script Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = TextLabel
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.383838385, 0, 1.06000006, 0)
+TextLabel_2.Size = UDim2.new(0, 137, 0, 39)
+TextLabel_2.Font = Enum.Font.Arcade
+TextLabel_2.Text = "vaz#7904"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_5.Parent = Frame
+
+-- Scripts:
+
+local function ZKFBKM_fake_script() -- Swagmode.LocalScript 
+	local script = Instance.new('LocalScript', Swagmode)
+
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+	end)
+end
+coroutine.wrap(ZKFBKM_fake_script)()
+local function VKGL_fake_script() -- Crash.LocalScript 
+	local script = Instance.new('LocalScript', Crash)
+
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()end)
+end
+coroutine.wrap(VKGL_fake_script)()
+local function HLPGY_fake_script() -- Swagmode_2.LocalScript 
+	local script = Instance.new('LocalScript', Swagmode_2)
+
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/TX210BB2'))()
+	end)
+end
+coroutine.wrap(HLPGY_fake_script)()
+local function FYSHOY_fake_script() -- Autofarm.LocalScript 
+	local script = Instance.new('LocalScript', Autofarm)
+
+	local button = script.Parent
+	button.MouseButton1Down:Connect(function()
+	
+		local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+	
+		local Window = OrionLib:MakeWindow({Name = "Cash Cat v2", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+	
+		local Tab = Window:MakeTab({
+			Name = "Main",
+			Icon = "rbxassetid://4483345998",
+			PremiumOnly = false
+		})
+	
+		local Section = Tab:AddSection({
+			Name = "AutoFarm"
+		})
+	
+		_G.AutoFarm = false
+		Tab:AddToggle({
+			Name = "Cash Farm",
+			Default = false,
+			Callback = function(Value)
+				_G.AutoFarm = Value
+	
+	
+	
+				loadstring(game:HttpGet("https://www.klgrth.io/paste/3fjq3/raw"))()
+	
+			end    
+		})
+	end)
+end
+coroutine.wrap(FYSHOY_fake_script)()
+local function FMDYKVV_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while true do
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(0, 170, 0) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(0, 170, 0)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 0, 0) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(255, 0, 0)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(0, 0, 255) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(0, 0, 255)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 0) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(255, 255, 0)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(255, 255, 255)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(85, 255, 0) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(85, 255, 0)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(0, 170, 255) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(0, 170, 255)
+		wait()
+	end
+end
+coroutine.wrap(FMDYKVV_fake_script)()
+local function XKDISQ_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	while true do
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(0, 170, 0) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(0, 170, 0)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 0, 0) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(255, 0, 0)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(0, 0, 255) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(0, 0, 255)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 0) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(255, 255, 0)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(255, 255, 255) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(255, 255, 255)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(85, 255, 0) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(85, 255, 0)
+		wait()
+		script.Parent.TextColor3 = Color3.fromRGB(0, 170, 255) -- change to anything
+		script.Parent.TextStrokeColor3= Color3.fromRGB(0, 170, 255)
+		wait()
+	end
+end
+coroutine.wrap(XKDISQ_fake_script)()
+local function AABUCB_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent.Parent.Frame
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(AABUCB_fake_script)()
